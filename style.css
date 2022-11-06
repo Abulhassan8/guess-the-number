@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 63%;
+}
+
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  background-color: #eee;
+  border: 5px #222 solid;
+}
+
+header{
+  color: #222;
+  height: 35vh;
+  display: block;
+  align-content: center;
+  border-bottom: .5px #222 solid;
+}
+
+main{
+  height: 65vh;
+  color: #222;
+  display: flex;
+  align-items: center;
+  border-top: 5px #222 solid;
+}
+
+.left{
+  width: 52rem;
+  position: absolute;
+  left: 2rem;
+}
+
+.right{
+  position: absolute;
+  width: 52rem;
+  font-size: 2rem;
+  right: 2rem;
+}
+
+.main-head{
+  font-size: 4rem;
+  text-align: center;
+  position: absolute;
+  top: 5%;
+  width: 100%;
+}
+
+.number-defenition {
+  font-size: 2rem;
+  text-align: center;
+  position: absolute;
+  top: 12%;
+  width: 100%;
+}
+
+.number{
+  background: black;
+  color: #eee;
+  width: 15rem;
+  font-size: 8rem;
+  padding: 4rem 0rem;
+  text-align: center;
+  position: absolute;
+  top: 20vh;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.again{
+  position: absolute;
+  top: 3rem;
+  right: 3rem;
+}
+
+.new-game {
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+}
+
+.guess{
+  background: inherit;
+  border: 3px #222 solid;
+  font-family: inherit;
+  color: inherit;
+  font-size: 5rem;
+  padding: 2rem;
+  width: 25rem;
+  text-align: center;
+  display: block;
+  margin-bottom: 3rem;
+}
+
+.btn{
+  background: #222;
+  color: #eee;
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 2rem 3rem;
+  cursor: pointer;
+}
+
+.message{
+  position: absolute;
+  width: 100%;
+  font-size: 3rem;
+  bottom: 50rem;
+  text-align: center;
+}
+
+.score-value{
+  position: absolute;
+  transform: translate(10rem);
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.label-score{
+  padding-bottom: 4rem;
+}
